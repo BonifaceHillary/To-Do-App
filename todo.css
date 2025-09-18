@@ -125,7 +125,7 @@ form {
   color: #ff0033;
 }
 
-.custom-checkbox{
+.custom-checkbox {
   border: 2px solid var(--accent-color);
   border-radius: 50%;
   min-height: 20px;
@@ -147,7 +147,7 @@ form {
   
 }
 
-input[type="checkbox"]:checked ~ .custom-checkbox{
+input[type="checkbox"]:checked ~ .custom-checkbox {
   background-color: var(--accent-color);
 }
 
