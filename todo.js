@@ -10,7 +10,6 @@ updateTodoList();
 todoForm.addEventListener('submit', function(e){
   e.preventDefault();
   addTodo();
-  
 })
 
 function addTodo(){
@@ -21,7 +20,6 @@ function addTodo(){
       text: todoText,
       completed: false
     }
-
 
     allTodos.push(todoObject);
     updateTodoList();

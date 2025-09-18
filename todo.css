@@ -2,7 +2,9 @@
   --background: #101114;
   --primary-color:#1c1d20;
   --secondary-color: #4A4D57;
-  --accent-color: #00FFc4;
+  /* --accent-color: #00FFc4; */
+  /* --accent-color: #ff0033; */
+  --accent-color: #32CD32;
   --text-color: #F9F9F9;
  }
  
@@ -111,7 +113,8 @@ form{
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  color: var(--secondary-color)
+  /* color: var(--secondary-color) */
+  color: #D3D3D3;
 }
 
 .delete-button i {
@@ -152,9 +155,9 @@ input[type="checkbox"]:checked ~ .custom-checkbox{
 input[type="checkbox"]:checked ~ .custom-checkbox i{
   background: var(--primary-color);
 }
-
+/* strikethrough */
 input[type="checkbox"]:checked ~ .todo-text{
-  text-decoration: line-through;
+  text-decoration: line-through solid red;
   columns: var(--secondary-color);
 }
  
