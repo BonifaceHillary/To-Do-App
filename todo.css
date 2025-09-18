@@ -152,11 +152,11 @@ input[type="checkbox"]:checked ~ .custom-checkbox {
 }
 
 
-input[type="checkbox"]:checked ~ .custom-checkbox i{
+input[type="checkbox"]:checked ~ .custom-checkbox i {
   background: var(--primary-color);
 }
 /* strikethrough */
-input[type="checkbox"]:checked ~ .todo-text{
+input[type="checkbox"]:checked ~ .todo-text {
   text-decoration: line-through solid red;
   columns: var(--secondary-color);
 }
