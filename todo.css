@@ -48,7 +48,7 @@ h1 {
 
 
 
-#todo-input{
+#todo-input {
   box-sizing: border-box;
   width: 12px; 
   height: 40px;;
@@ -63,11 +63,11 @@ h1 {
 }
 
 
-#todo-input{
+#todo-input {
   outline: none;
 }
 
-form{
+form {
   position: relative;
 }
 
