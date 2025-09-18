@@ -29,7 +29,7 @@
   align-items: center;
  }
 
-h1{
+h1 {
   margin-top: 100px;
   margin: 20px;
   font-size: 3rem;
@@ -38,7 +38,7 @@ h1{
   color: var(--accent-color);
 }
 
-.wrapper{
+.wrapper {
   width: 700px;
   max-width: 100%;
   display: flex;
