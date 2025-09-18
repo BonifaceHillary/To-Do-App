@@ -98,14 +98,14 @@ form {
   align-items: center;
 }
 
-.todo .todo-text{
+.todo .todo-text {
   padding: 15px;
   padding-right: 0;
   flex-grow: 1; 
   transition: 200ms ease;
 }
 
-.delete-button{
+.delete-button {
   padding: 3px;
   background: none;
   border: none;
