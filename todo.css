@@ -71,7 +71,7 @@ form {
   position: relative;
 }
 
-  #add-button{
+  #add-button {
     position: absolute;
     top: 0;
     right: 0;
@@ -89,7 +89,7 @@ form {
 }
 
 
-.todo{
+.todo {
   margin-bottom: 10px;
   padding: 0 16px;
   background-color: var(--primary-color);
