@@ -161,11 +161,11 @@ input[type="checkbox"]:checked ~ .todo-text {
   columns: var(--secondary-color);
 }
  
-input[type="checkbox"]{
+input[type="checkbox"] {
   display: none;
 } 
 
-@media(max-width: 500px){
+@media(max-width: 500px) {
   html{
     font-size: 12px;
   }
